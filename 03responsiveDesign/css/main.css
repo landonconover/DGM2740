@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: #B5C0C5;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*SITE STYLES*/
+
+/*Container*/
+#container{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+h1{
+    font-size: 5em;
+    padding: 20px 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 a{
+    color: #4F0C4D;
+}
+
+nav{
+    background-color: #097686;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    font-size: 1.2em; 
+    padding-left: 10px;
+}
+
+/*CONTENT*/
+
+#content{
+    padding: 10px;
+}
+
+hr{
+    margin: 15px 0;
+}
+
+h3{
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+    color: #2A5F78;
+}
+
+#content p{
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#content p a{
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#latest h4{
+    font-size: 1.2em;
+    font-family: 'Nunito', sans-serif;
+}
+
+#featured p{
+    padding: 0;
+}
+
+#featured{
+    padding: 15px 0;
+}
+
+.img{
+    width:10%;
+    float:right;
+    padding-right: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.left-col{
+    width:70%;
+    float: left;
+}
+
+.right-col{
+    width:20%;
+    float:right;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.right-col li{
+    margin-top: 3px;
+}
+
+#aboutPic{
+    width: 15%;
+    margin: 10px;
+    float:left;
+}
+
+#about{
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#about p{
+    padding: 0;
+}
+
+footer{
+    padding-bottom: 15px;
+    padding-left: 10px;
+}

@@ -1,0 +1,55 @@
+/*Container*/
+#container{
+    width: 100%;
+}
+
+/*HEADER*/
+
+h1{
+    font-size: 2em;
+}
+
+nav{
+    padding: 0;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    display: block;
+    border-bottom: 2px solid white;
+    width:100%;
+}
+
+/*CONTENT*/
+
+.left-col{
+    width:100%;
+    float: none;
+}
+
+.right-col{
+    width:100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    float: none;
+    border: none;
+}
+
+.right-col li{
+    margin-top: 3px;
+}
+
+#about{
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#about p{
+    padding: 0;
+}
+
+#aboutPic{
+    width: 40%;
+}
