@@ -1,0 +1,71 @@
+@media only screen and (min-width: 550px) {
+
+$myfont: 'Rambla', sans-serif;
+$borderRadius: 5px;
+$prettyBarMarginTop: 1em;
+
+#container {
+
+}
+
+//Header
+header{
+
+} //End Header
+
+div #prettyBar{
+    background-color: #2F3838;
+    #prettyLeft{
+        margin-left:25%;
+        height: $prettyBarMarginTop;
+        background-color: #808C5F;
+    }
+}
+
+// Navigation
+
+#nav-contain{
+    width: 25%; 
+    float: left;
+}
+
+nav{
+    ul{
+        padding: 0; 
+        margin: 0; 
+        border: none;
+        border-radius: 0;
+
+        li{
+            a {
+                padding:.6em;
+                text-decoration: none;
+                border-top: 1px solid  black;
+            }
+
+            &:last-child a{
+                border-radius: 0 0 0 0;
+            }
+        }
+    }
+} //End Navigation
+
+
+
+
+
+
+// Body
+div #main{
+    margin-left:25%;
+}
+
+// Footer
+footer{
+    #foot-side{
+        background-color: #808C5F;
+        margin-left: 25%;
+    }
+}
+
+}

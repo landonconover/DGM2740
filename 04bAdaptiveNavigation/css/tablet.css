@@ -1,0 +1,33 @@
+@media only screen and (min-width: 550px) {
+  header h1 {
+    font-size: 5em; }
+
+  nav {
+    width: 25%;
+    float: left; }
+    nav select {
+      display: none; }
+    nav ul {
+      display: block; }
+      nav ul li a {
+        display: block;
+        padding: .7em;
+        text-decoration: none;
+        border-top: 1px solid black;
+        border-bottom: 1px solid white;
+        color: white;
+        font-weight: 600;
+        background: #D47116; }
+      nav ul li li a {
+        color: light gray;
+        padding: .7em;
+        padding-left: 20px;
+        font-size: .8em;
+        background: #F2B035; }
+
+  #content {
+    float: left;
+    width: 75%; }
+
+  #social .box a {
+    width: 12.666%; } }

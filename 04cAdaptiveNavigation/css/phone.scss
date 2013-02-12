@@ -1,0 +1,103 @@
+$myfont: 'Rambla', sans-serif;
+$borderRadius: 5px;
+
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    
+}
+
+#container{
+    background-color: #F2F2F2;
+}
+
+// Header
+header{
+    background-color: #D97F30;
+
+    #phone{
+        float: right;
+        margin-top: .6em;
+        margin-right: 2%;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+}
+
+// nav
+
+
+// content
+#content{
+    h3{
+        font-size: 1.5em;
+    }
+}
+
+article{
+    padding: .5em 2%;
+    h3{
+        border-top: 2px solid black;
+    }
+}
+
+.row{
+    h1{
+        font-size: 2em;
+        padding-left:2%;
+    }
+}
+
+figure.right{ 
+    width:41.666%;
+    margin-left: 2%;
+    border: 1px solid gray;
+    padding: .5em;
+    float:right;
+
+    img{
+        width: 100%;
+    }
+
+    figcaption{
+        text-align: center;
+    }
+}
+
+// links
+#social{
+    background-color: #D97F30;
+    clear:both;
+
+    .box a {
+        width: 29.3333%;
+        margin: 1em  2%;
+        float: left;
+        border-radius: 10px;
+        height: 2em;
+        text-align:center;
+        color: #F2B035;
+        padding-top: .7em;
+        text-decoration:none;
+
+        background-color: #262425;
+    }
+}
+
+footer{
+    p {
+        padding: 1em 0;
+        margin: 0 2%;
+    }
+}
+
+
+
+.clear{
+    clear: both;
+}

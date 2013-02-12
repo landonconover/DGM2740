@@ -1,0 +1,29 @@
+@media only screen and (min-width: 961px) {
+  nav {
+    float: none;
+    width: 100%;
+    padding: 0; }
+    nav ul li {
+      float: left;
+      border-right: 1px solid white;
+      border-left: 1px solid black;
+      border-bottom: none; }
+      nav ul li ul {
+        z-index: 99;
+        position: absolute;
+        left: -999em; }
+        nav ul li ul li {
+          float: none;
+          border: none; }
+
+  nav li:hover ul {
+    left: auto; }
+
+  #content {
+    float: none;
+    width: 100%; }
+
+  article.col {
+    width: 46%;
+    float: left;
+    clear: none; } }
