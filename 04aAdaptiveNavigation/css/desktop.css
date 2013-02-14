@@ -26,6 +26,12 @@
   .clear {
     clear: both; }
 
+  figure.floatMe {
+    width: 30%;
+    float: right;
+    margin-right: 0;
+    margin-left: 2%; }
+
   div #main {
     margin-left: 0;
     background-color: gray;

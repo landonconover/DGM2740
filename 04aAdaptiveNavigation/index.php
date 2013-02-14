@@ -49,24 +49,33 @@
                 <article>
                     <h3>Sewing</h3>
                     <hr>
+                    <figure class="floatMe"><img src="http://placehold.it/350x150">
+                    <figcaption>Caption</figcaption>
+                    </figure>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque iure minima soluta delectus aspernatur eaque ab cum ullam error. Quisquam pariatur reiciendis recusandae molestias iste accusantium suscipit dolorem non laborum.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque iure minima soluta delectus aspernatur eaque ab cum ullam error. Quisquam pariatur reiciendis recusandae molestias iste accusantium suscipit dolorem non laborum.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque iure minima soluta delectus aspernatur eaque ab cum ullam error. Quisquam pariatur reiciendis recusandae molestias iste accusantium suscipit dolorem non laborum.
 
                     </p>
+                    <div class="clear"></div>
                 </article>
                 <article>
                     <h3>Sewing</h3>
                     <hr>
+                    <figure class="floatMe"><img src="http://placehold.it/350x150">
+                    <figcaption>Caption</figcaption>
+                    </figure>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque iure minima soluta delectus aspernatur eaque ab cum ullam error. Quisquam pariatur reiciendis recusandae molestias iste accusantium suscipit dolorem non laborum.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque iure minima soluta delectus aspernatur eaque ab cum ullam error. Quisquam pariatur reiciendis recusandae molestias iste accusantium suscipit dolorem non laborum.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque iure minima soluta delectus aspernatur eaque ab cum ullam error. Quisquam pariatur reiciendis recusandae molestias iste accusantium suscipit dolorem non laborum.
 
                     </p>
+                    <div class="clear"></div>
                 </article>
             </div>
+            
         </div>
 
         <footer>
@@ -76,6 +85,8 @@
                 </div>
             </div>
         </footer>
+
+
     </div>
 </body>
 </html>

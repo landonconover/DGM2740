@@ -56,6 +56,20 @@ nav{
     }
 } //End Navigation
 
+figure.floatMe{
+    img{
+        width: 100%;
+    }
+
+    width: 100%;
+    border: 1px solid gray;
+
+    figcaption{
+        text-align: center;
+    }
+
+}
+
 // Body
 div #main{
     padding: .2em 2%;
@@ -75,4 +89,8 @@ footer{
     text-align: center;
     background-color: #808C5F;
     color: white;
+}
+
+.clear{
+    clear: both;
 }

@@ -34,6 +34,14 @@ nav ul {
     background-color: #F2DBA5;
     color: white; }
 
+figure.floatMe {
+  width: 100%;
+  border: 1px solid gray; }
+  figure.floatMe img {
+    width: 100%; }
+  figure.floatMe figcaption {
+    text-align: center; }
+
 div #main {
   padding: 0.2em 2%;
   background-color: white; }
@@ -46,3 +54,6 @@ footer {
   color: white; }
   footer #content {
     padding: .5em; }
+
+.clear {
+  clear: both; }

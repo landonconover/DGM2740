@@ -1,8 +1,24 @@
 @media only screen and (min-width: 550px) {
 
+$black: #00010D;
+$darkRed: #590212;
+$midRed: #8c030E;
+$lowRed: #D90416;
+$white: #f2E9f2;
+
 header{
     h1{
         font-size: 5em;
+    }
+}
+
+.first{
+    h1{
+        padding-left: 2%;
+    }
+
+    p{
+        padding-left: 2%;
     }
 }
 
@@ -35,9 +51,9 @@ nav{
                 text-decoration: none;
                 border-top: 1px solid  black;
                 border-bottom: 1px solid white;
-                color: white;
+                color: $white;
                 font-weight: 600;
-                background: #D47116;
+                background: $midRed;
             }
 
             li{
@@ -46,7 +62,7 @@ nav{
                     padding:.7em;
                     padding-left: 20px;
                     font-size:.8em;
-                    background: #F2B035;
+                    background: $midRed;
                 }
             }
         }

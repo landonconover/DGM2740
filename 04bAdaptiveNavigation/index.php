@@ -53,7 +53,7 @@
     <div id="content">
         <div class="row">
             <article>
-                <h3>Art Head</h3>
+                <h3>Heading</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem debitis harum ipsum fuga sunt corrupti quo iure animi officiis autem molestias in magni asperiores id quidem rem eos minima.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem debitis harum ipsum fuga sunt corrupti quo iure animi officiis autem molestias in magni asperiores id quidem rem eos minima.
@@ -63,8 +63,8 @@
 
         <div class="row">
             <article class="col">
-                <h3>Art Head</h3>
-                <figure class="right"><img src="img/140.png" alt=""/>
+                <h3>Heading</h3>
+                <figure class="right"><img src="http://placehold.it/140x140" alt=""/>
                 <figcaption>Caption</figcaption>
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloremque explicabo voluptatibus totam similique minima aut aperiam quidem consectetur magni reiciendis eveniet velit saepe fugiat accusantium excepturi dignissimos voluptate commodi. </p>
@@ -72,8 +72,8 @@
             </article>
 
             <article class="col">
-                <h3>Art Head</h3>
-                <figure class="right"><img src="img/140.png" alt=""/>
+                <h3>Heading</h3>
+                <figure class="right"><img src="http://placehold.it/140x140" alt=""/>
                 <figcaption>Caption</figcaption>
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloremque explicabo voluptatibus totam similique minima aut aperiam quidem consectetur magni reiciendis eveniet velit saepe fugiat accusantium excepturi dignissimos voluptate commodi. </p>
@@ -84,8 +84,8 @@
 
         <div class="row">
             <article class="col">
-                <h3>Art Head</h3>
-                <figure class="right"><img src="img/140.png" alt=""/>
+                <h3>Heading</h3>
+                <figure class="right"><img src="http://placehold.it/140x140" alt=""/>
                 <figcaption>Caption</figcaption>
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloremque explicabo voluptatibus totam similique minima aut aperiam quidem consectetur magni reiciendis eveniet velit saepe fugiat accusantium excepturi dignissimos voluptate commodi. </p>
@@ -94,8 +94,8 @@
             </article>
 
             <article class="col">
-                <h3>Art Head</h3>
-                <figure class="right"><img src="img/140.png" alt=""/>
+                <h3>Heading</h3>
+                <figure class="right"><img src="http://placehold.it/140x140" alt=""/>
                 <figcaption>Caption</figcaption>
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloremque explicabo voluptatibus totam similique minima aut aperiam quidem consectetur magni reiciendis eveniet velit saepe fugiat accusantium excepturi dignissimos voluptate commodi. </p>

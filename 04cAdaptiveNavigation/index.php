@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
     <title>04b Adaptive Navigation</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Rambla:400,700' rel='stylesheet' type='text/css'>
-
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mobilemenu.css">
+
     <link rel="stylesheet" href="css/phone.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/desktop.css">
@@ -23,7 +24,8 @@
     </header>
 
     <nav>
-        <ul>
+        <button class="nav-button">Toggle Navigation</button>
+        <ul class="primary-nav">
             <li> <a href="#">Item 1</a>
                 <ul>
                     <li><a href="#">Sub-Item 1</a></li>
@@ -51,14 +53,15 @@
     </nav>
 
     <div id="content">
-        <div class="row">
+        <div class="row first">
             <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae laudantium in facilis rerum eaque corrupti omnis impedit voluptas illo quaerat optio voluptatum ea rem molestiae ducimus illum quae magni! Et.</p>
         </div>
 
         <div class="row">
             <div class="col">
                 <article>
-                    <h3>Art Head</h3>
+                    <h3>Sub Heading</h3>
                     <figure class="right"><img src="img/140.png" alt=""/>
                     <figcaption>Caption</figcaption>
                     </figure>
@@ -69,7 +72,7 @@
                 </article>
 
                 <article>
-                    <h3>Art Head</h3>
+                    <h3>Sub Heading</h3>
                     <figure class="right"><img src="img/140.png" alt=""/>
                     <figcaption>Caption</figcaption>
                     </figure>
@@ -81,7 +84,7 @@
 
             <div class="col">
                 <article>
-                    <h3>Art Head</h3>
+                    <h3>Sub Heading</h3>
                     <figure class="right"><img src="img/140.png" alt=""/>
                     <figcaption>Caption</figcaption>
                     </figure>
@@ -91,7 +94,7 @@
                 </article>
 
                 <article>
-                    <h3>Art Head</h3>
+                    <h3>Sub Heading</h3>
                     <figure class="right"><img src="img/140.png" alt=""/>
                     <figcaption>Caption</figcaption>
                     </figure>
@@ -105,7 +108,7 @@
         <div class="row">
             <div class="col">
                 <article>
-                    <h3>Art Head</h3>
+                    <h3>Sub Heading</h3>
                     <figure class="right"><img src="img/140.png" alt=""/>
                     <figcaption>Caption</figcaption>
                     </figure>
@@ -115,7 +118,7 @@
                 </article>
 
                 <article>
-                    <h3>Art Head</h3>
+                    <h3>Sub Heading</h3>
                     <figure class="right"><img src="img/140.png" alt=""/>
                     <figcaption>Caption</figcaption>
                     </figure>
@@ -127,7 +130,7 @@
 
             <div class="col">
                 <article>
-                    <h3>Art Head</h3>
+                    <h3>Sub Heading</h3>
                     <figure class="right"><img src="img/140.png" alt=""/>
                     <figcaption>Caption</figcaption>
                     </figure>
@@ -137,7 +140,7 @@
                 </article>
 
                 <article>
-                    <h3>Art Head</h3>
+                    <h3>Sub Heading</h3>
                     <figure class="right"><img src="img/140.png" alt=""/>
                     <figcaption>Caption</figcaption>
                     </figure>
@@ -178,6 +181,10 @@
 
 $(function() {
        
+
+    $(".nav-button").click(function () {
+    $(".nav-button,.primary-nav").toggleClass("open");
+    });    
 
      
 });

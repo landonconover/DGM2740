@@ -2,6 +2,11 @@
   header h1 {
     font-size: 5em; }
 
+  .first h1 {
+    padding-left: 2%; }
+  .first p {
+    padding-left: 2%; }
+
   nav {
     background-color: black; }
     nav ul {
@@ -24,15 +29,15 @@
           text-decoration: none;
           border-top: 1px solid black;
           border-bottom: 1px solid white;
-          color: white;
+          color: #f2e9f2;
           font-weight: 600;
-          background: #D47116; }
+          background: #8c030e; }
         nav ul li li a {
           color: light gray;
           padding: .7em;
           padding-left: 20px;
           font-size: .8em;
-          background: #F2B035; }
+          background: #8c030e; }
 
   nav li:hover ul {
     left: auto; }
