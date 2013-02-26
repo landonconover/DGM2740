@@ -1,0 +1,35 @@
+@media only screen and (min-width: 550px) {
+  div #prettyBar {
+    background-color: #2F3838; }
+    div #prettyBar #prettyLeft {
+      margin-left: 25%;
+      height: 1em;
+      background-color: #808C5F; }
+
+  #nav-contain {
+    width: 25%;
+    float: left; }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0; }
+    nav ul li a {
+      padding: .6em;
+      text-decoration: none;
+      border-top: 1px solid black; }
+    nav ul li:last-child a {
+      border-radius: 0 0 0 0; }
+
+  figure.floatMe {
+    width: 70%;
+    float: left;
+    margin-right: 2%; }
+
+  div #main {
+    margin-left: 25%; }
+
+  footer #foot-side {
+    background-color: #808C5F;
+    margin-left: 25%; } }
