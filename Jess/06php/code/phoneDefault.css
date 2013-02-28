@@ -1,0 +1,178 @@
+html {-webkit-text-size-adjust: none; }
+
+#container{
+min-width: 320px;
+max-width: 960px;
+}
+
+/*---- Header ----*/
+header{
+background-color: #A65502; /*Brown*/
+padding: .2em;
+}
+
+header h1{
+font-size: 2em;
+color: #FFF;
+text-align: center;
+font-family: 'Merienda', cursive;
+}
+
+header h3{
+font-size: 1em;
+color: #CCC;
+text-align: center;
+font-family:'Averia Gruesa Libre', cursive;
+}
+
+#logo{ 
+width: 65%;
+margin: auto;
+}
+
+/*---- Navigation ----*/
+nav{
+background-color: #035908; /*Dark Green*/
+padding: .5em;
+}
+
+nav ul li{
+margin: 2%;
+}
+
+nav ul li a{
+float: left;
+background-color: #35A63A; /*Medium Green*/
+color: #FFF;
+font-family:'Merienda', cursive;
+width: 96%;
+height: 2em;
+margin: .5em 2%;
+padding: .5em .3em 0 .3em;
+padding-top: .5em;
+text-align: center;
+text-decoration: none;
+/*Styling the Button*/
+border-radius: .5em;
+line-height: 1;
+background: #35a63a; /* Old browsers */
+background: -moz-linear-gradient(top, #35a63a 52%, #45d946 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(52%,#35a63a), color-stop(100%,#45d946)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #35a63a 52%,#45d946 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #35a63a 52%,#45d946 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #35a63a 52%,#45d946 100%); /* IE10+ */
+background: linear-gradient(to bottom, #35a63a 52%,#45d946 100%); /* W3C */
+text-shadow: 0 1px 1px rgba( 0, 0, 0, .25);
+box-shadow: 0 1px 1px rgba( 0, 0, 0, .5);
+}
+
+nav ul li a:hover{
+background: #6FB573; /*Gray Green*/
+}
+
+#nav li.current{
+background: #45d94c; /*Light Green*/
+color: #000; 
+}
+
+/*---- Content ----*/
+#content{
+background-color: #8C613B; /*Gray Brown*/
+background-image: url(images/browntext.jpg); 
+background-repeat:repeat;
+padding-bottom: .5em;
+}
+
+p.info{
+font-size: 14px;
+font-family: verdana;
+}
+
+p.info{
+padding: .5em 2% 0 2%;
+}
+
+h2{
+font-size: 1.5em;
+padding: .7em 2% 0 2%;
+font-family:'Averia Gruesa Libre', cursive;
+}
+
+article h3{
+font-size: 1.25em;
+color: #FFF;
+border-radius: .5em;
+background-color: rgba( 53, 166, 58, .35);
+padding: .3em;
+font-family:'Averia Gruesa Libre', cursive;
+}
+
+article{
+margin: 2%;
+}
+
+figure{
+margin-top: 2%;
+}
+
+figure img {
+width: 100%;
+}
+
+form.download  input[type= "button"]{
+font-family:'Averia Gruesa Libre', cursive;
+padding: .5em;
+font-weight: bold;
+line-height: 1;
+color: #000;
+border: none;
+background-color: #FFF;
+margin: .5em;
+border-radius: .4em; 
+background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(40%,#dfe5d7), color-stop(100%,#b3bead)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* IE10+ */
+background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C */
+text-shadow: 0 1px 1px rgba( 255, 255, 255, .85);
+box-shadow: 0 1px 1px rgba( 0, 0, 0, .5);
+-webkit-transition: background .3s ease-in-out;
+-moz-transition: background .3s ease-in-out;
+transition: background .3s ease-in-out; 
+}
+
+form.download input[type="button"]:hover{
+background: #CCC;
+}
+
+div.social{ 
+background-color: #8C613B;
+}
+
+div.social img{
+float: right;
+width: 29.33%;
+margin: 2%;
+opacity: .5;
+}
+
+div.social img:hover{
+opacity: .9;
+}
+
+/*---- Footer ----*/
+footer{
+width: 100%;
+}
+
+footer p{
+text-align: center;
+color: #FFF;
+font-size: .7em;
+background-color: #A65502; /*Brown*/
+padding: 1em 0;
+}
+
+/*---- Other ----*/
+div.keepOpen{clear: both;}

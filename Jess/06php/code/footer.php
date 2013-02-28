@@ -1,0 +1,1 @@
+<p> &copy; 2013 First School Years &bull; Jessica Elliott</p> 

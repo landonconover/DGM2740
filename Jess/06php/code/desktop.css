@@ -1,0 +1,77 @@
+@media only screen and (min-width: 961px) {
+
+/*---- Wrapper ----*/
+body{
+background-color: #119848;
+background-image: url(images/Repeat.png);
+background-repeat: repeat-x;
+margin: 0;
+}
+
+#wrapper{
+background-image:url(images/Wrapper.png);
+background-position: center top;
+background-repeat: no-repeat;
+padding-top: 150px;
+}
+
+/*---- Container ----*/
+#container{
+margin: auto;
+border-radius: .75em;
+}
+
+/*---- Header ----*/
+header {
+border-top-left-radius: .75em;
+border-top-right-radius: .75em;
+}
+
+header h1{}
+
+#logo{}
+
+/*---- Navigation ----*/
+
+#nav ul li.current{
+box-shadow: 0px 0px 8px #FFF;
+}
+
+/*---- Content ----*/
+
+article figure img{
+-webkit-transition: -webkit-transform .4s ease-in-out;
+-moz-transition: -moz-transform .4s ease-in-out;
+transition: tranform .4s ease-in-out; 
+}
+
+article figure img:hover{
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale (1.25);
+}
+
+div.social{
+position: inherit;
+float: right;
+margin-right: 5%;
+padding-bottom: .5em;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: .5em;
+border-top-right-radius: .5em;
+box-shadow: 2px 2px 10px #D8965B inset;
+}
+
+#content{
+padding-bottom: 0;
+}
+
+/*---- Footer ----*/
+footer p{
+border-bottom-left-radius: .75em;
+border-bottom-right-radius: .75em;
+}
+
+}
