@@ -19,7 +19,7 @@ function extractPageName(hrefString)
 {
 	//console.log(hrefString);
 	var arr = hrefString.split('/');
-	console.log(arr.length);
+	//console.log(arr.length);
 	return  (arr.length<2) ? hrefString : arr[arr.length-1].toLowerCase() + arr[arr.length-1].toLowerCase();
 }
 
