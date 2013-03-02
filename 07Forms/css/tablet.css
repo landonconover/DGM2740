@@ -1,0 +1,54 @@
+@media only screen and (min-width: 550px) {
+  /* line 16, tablet.scss */
+  div #prettyBar {
+    background-color: #2F3838;
+  }
+  /* line 18, tablet.scss */
+  div #prettyBar #prettyLeft {
+    margin-left: 25%;
+    height: 1em;
+    background-color: #808C5F;
+  }
+
+  /* line 27, tablet.scss */
+  #nav-contain {
+    width: 25%;
+    float: left;
+  }
+
+  /* line 33, tablet.scss */
+  nav ul {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+  }
+  /* line 40, tablet.scss */
+  nav ul li a {
+    padding: .6em;
+    text-decoration: none;
+    border-top: 1px solid black;
+  }
+  /* line 46, tablet.scss */
+  nav ul li:last-child a {
+    border-radius: 0 0 0 0;
+  }
+
+  /* line 53, tablet.scss */
+  figure.floatMe {
+    width: 70%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  /* line 63, tablet.scss */
+  div #main {
+    margin-left: 25%;
+  }
+
+  /* line 69, tablet.scss */
+  footer #foot-side {
+    background-color: #808C5F;
+    margin-left: 25%;
+  }
+}

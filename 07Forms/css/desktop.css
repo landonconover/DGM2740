@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1141px) {
+  /* line 6, desktop.scss */
+  #prettyBar {
+    display: none;
+  }
+
+  /* line 17, desktop.scss */
+  div #nav-contain {
+    width: 100%;
+    background-color: #B3CCA2;
+    float: none;
+  }
+  /* line 22, desktop.scss */
+  div #nav-contain nav {
+    display: block;
+  }
+  /* line 25, desktop.scss */
+  div #nav-contain nav li {
+    float: left;
+    border-left: solid 1px black;
+  }
+  /* line 29, desktop.scss */
+  div #nav-contain nav li:first-child a {
+    border-top: solid 1px black;
+    border-radius: 0 0 0;
+  }
+
+  /* line 38, desktop.scss */
+  #nav-side {
+    width: 91.666%;
+    background-color: #808C5F;
+  }
+
+  /* line 44, desktop.scss */
+  #nav-middle {
+    margin-left: 18.181%;
+    background-color: gray;
+  }
+
+  /* line 49, desktop.scss */
+  .clear {
+    clear: both;
+  }
+
+  /* line 54, desktop.scss */
+  figure.floatMe {
+    width: 30%;
+    float: right;
+    margin-right: 0;
+    margin-left: 2%;
+  }
+
+  /* line 63, desktop.scss */
+  div #main {
+    margin-left: 0;
+    background-color: gray;
+    float: none;
+    padding: 0%;
+    width: 91.666%;
+  }
+  /* line 70, desktop.scss */
+  div #main #left-col {
+    background-color: #717171;
+  }
+  /* line 74, desktop.scss */
+  div #main article {
+    display: block;
+    margin-left: 18.181%;
+    background-color: white;
+    padding: 0.2em 2%;
+  }
+  /* line 81, desktop.scss */
+  div #main #mainContain {
+    display: block;
+    margin-left: 18.181%;
+    background-color: white;
+    padding: 0.2em 2%;
+  }
+
+  /* line 92, desktop.scss */
+  footer #foot-side {
+    width: 91.666%;
+    margin: 0;
+    background-color: #B3CCA2;
+  }
+  /* line 97, desktop.scss */
+  footer #content {
+    margin-left: 18.181%;
+    background-color: #2F3838;
+  }
+}
