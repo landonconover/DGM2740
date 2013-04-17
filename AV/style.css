@@ -89,13 +89,15 @@ h1 {
   font-size: 1.714285714em;
   /* 24 / 14 */
   line-height: 1.5em;
-  /* 21 / 14 */ }
+  /* 21 / 14 */
+  font-family: 'Oswald', sans-serif; }
 
 h2 {
   font-size: 1.5em;
   /* 21 / 14 */
   line-height: 1.5em;
-  /* 21 / 14 */ }
+  /* 21 / 14 */
+  font-family: 'Oswald', sans-serif; }
 
 p {
   font-size: 1em;
@@ -108,7 +110,7 @@ p {
   width: 960px; }
 
 header {
-  background: #262F37;
+  background: #2b2f2d;
   height: 200px; }
 
 header h1 {
@@ -120,8 +122,34 @@ header h1 {
 
 .alt {
   color: #fff;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   letter-spacing: 0.05em; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype"), url("fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon-home, .icon-phone, .icon-envelop {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.icon-home:before {
+  content: "\e000"; }
+
+.icon-phone:before {
+  content: "\e001"; }
+
+.icon-envelop:before {
+  content: "\e002"; }
 
 /* NAVIGATION */
 nav {
@@ -139,11 +167,13 @@ nav a {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  text-decoration: none; }
+  text-decoration: none;
+  border-bottom: 1px solid #EFF294;
+  margin: 0 -1.5px; }
 
 nav a:hover {
-  color: #9B9397;
-  text-shadow: 2px 2px 7px #000000; }
+  color: #6ca0ac;
+  text-shadow: 2px 3px 2px #000000; }
 
 .logo {
   font-size: 1.7em;
@@ -151,20 +181,28 @@ nav a:hover {
   line-height: .9em;
   display: inline-block;
   position: relative;
-  top: 15px; }
+  top: 15px;
+  border-bottom: none; }
 
 .logo:hover {
   color: rgba(255, 255, 255, 0.8);
   text-shadow: none; }
 
 footer {
-  background: #262F37;
+  background: #2b2f2d;
   height: 200px;
   text-align: center; }
   footer p {
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
     margin-top: 100px; }
+
+aside {
+  border-left: 3px solid #EFF294;
+  padding-left: 10px; }
+
+.book {
+  font-size: 1.3em; }
 
 /* MEDIA QUERIES */
 /* Responsify Defaults */
