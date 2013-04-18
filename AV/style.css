@@ -29,6 +29,9 @@ nav ul, nav li {
 nav ul, ul {
   list-style: none; }
 
+html, body {
+  height: 100%; }
+
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
   float: left;
   -webkit-box-sizing: border-box;
@@ -199,7 +202,9 @@ nav a:hover {
 footer {
   background: #2b2f2d;
   height: 200px;
-  text-align: center; }
+  text-align: center;
+  position: absolute;
+  bottom: 0; }
   footer p {
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
@@ -214,28 +219,39 @@ aside {
 
 /* MEDIA QUERIES */
 /* Responsify Defaults */
-@media screen and (max-width: 768px) {
-  nav .span4 {
-    width: 100%; }
+@media screen and (max-width: 960px) {
+  nav {
+    margin-top: 130px; }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 10px;
+    background-position: 0; }
 
   .span8, article {
-    width: 100%; }
+    width: 75%; }
 
   .span4, aside {
-    width: 100%;
+    width: 25%;
     margin-left: 0; }
 
   #container, .inner {
     width: 90%;
     padding: 0 5% 0 5%; } }
 @media screen and (max-width: 480px) {
+  nav {
+    margin-top: 130px; }
+
   nav a {
     padding: 14px 0 14px 0;
     width: 50%;
     float: left;
-    margin: 5px auto;
-    margin-top: 50px;
-    display: block; }
+    margin: 0 auto;
+    display: block;
+    font-size: .8em; }
 
   .logo {
     position: absolute;
@@ -246,7 +262,7 @@ aside {
     background-position: 0; }
 
   header {
-    height: 400px; } }
+    height: 300px; } }
 /* Custom Breakpoints */
 .cf {
   zoom: 1; }

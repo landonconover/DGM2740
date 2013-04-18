@@ -24,6 +24,10 @@ $headerHoverColor: #6CA0AC;
 	width: $width;
 }
 
+html, body {
+  height: 100%;
+}
+
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
     float:left;
     -webkit-box-sizing:border-box;
@@ -245,6 +249,8 @@ footer{
     color: rgba(255,255,255, 0.8);
     margin-top: 100px;
   }
+  position: absolute;
+  bottom: 0;
 }
 
 aside{
@@ -259,17 +265,28 @@ aside{
 
 /* Responsify Defaults */
 
-@media screen and (max-width: 768px){
-  nav .span4{
-    width: 100%;
+// @media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
+
+  nav{
+    margin-top: 130px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 10px;
+    background-position: 0;
   }
 
   .span8, article{
-    width: 100%;
+    width: 75%;
   }
 
   .span4, aside{
-    width: 100%;
+    width: 25%;
     margin-left: 0;
   }
 
@@ -285,13 +302,17 @@ aside{
   //   margin: 0 0 5px 0;
   // }
 
+  nav{
+    margin-top: 130px;
+  }
+
   nav a{
     padding: 14px 0 14px 0;
     width: 50%;
     float: left;
-    margin: 5px auto;
-    margin-top: 50px;
+    margin: 0 auto;
     display: block;
+    font-size: .8em;
   }
 
   .logo {
@@ -304,7 +325,7 @@ aside{
   }
 
   header{
-    height: 400px;
+    height: 300px;
   }
 }
 
