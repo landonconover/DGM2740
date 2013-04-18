@@ -24,10 +24,6 @@ $headerHoverColor: #6CA0AC;
 	width: $width;
 }
 
-html, body {
-  height: 100%;
-}
-
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
     float:left;
     -webkit-box-sizing:border-box;
@@ -239,7 +235,7 @@ text-shadow: 2px 3px 2px #000000;
 }
 
 // FOOTER
-
+//and everything to make it sticky.
 footer{
   background: $headerFooterColor;
   height: 200px;
@@ -249,9 +245,32 @@ footer{
     color: rgba(255,255,255, 0.8);
     margin-top: 100px;
   }
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin-top: -200px; /* negative value of footer height */
+  height: 200px;
+  clear:both;
 }
+
+html, body, #wrap { height: 100%; }
+
+body > #wrap {height: auto; min-height: 100%;}
+
+#main { padding-bottom: 200px; }  /* must be same height as the footer */
+
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+
+//END FOOTER STUFF
+
 
 aside{
   border-left: 3px solid #EFF294;
@@ -327,6 +346,16 @@ aside{
   header{
     height: 300px;
   }
+
+    .span8, article{
+    width: 100%;
+  }
+
+  .span4, aside{
+    width: 100%;
+    margin-left: 0;
+  }
+
 }
 
 /* Custom Breakpoints */
