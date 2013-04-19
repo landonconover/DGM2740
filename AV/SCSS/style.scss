@@ -139,7 +139,7 @@ header h1{
   color: #fff;
   color: rgba(255,255,255, 0.9);
   letter-spacing: 0.05em;
-}
+} 
 
 @font-face {
   font-family: 'icomoon';
@@ -196,10 +196,10 @@ nav a {
   padding:10px 10px;
   text-decoration: none;
   padding: 8px;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
   text-decoration: none;
   border-bottom: 1px solid #EFF294;
   margin: 0 -2px;
@@ -209,6 +209,11 @@ nav a:hover
 {
 color: $headerHoverColor;
 text-shadow: 2px 3px 2px #000000;
+}
+
+.active{
+  color: $headerHoverColor;
+  text-shadow: 2px 3px 2px #000000;
 }
 
 .logo{
@@ -271,6 +276,19 @@ body > #wrap {height: auto; min-height: 100%;}
 
 //END FOOTER STUFF
 
+//FACEBOOK
+#fb-root {
+  display: none;
+}
+ 
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
+//END FACEBOOK
+
+
+
 
 aside{
   border-left: 3px solid #EFF294;
@@ -300,14 +318,14 @@ aside{
     background-position: 0;
   }
 
-  .span8, article{
-    width: 75%;
-  }
+  // .span8, article{
+  //   width: 75%;
+  // }
 
-  .span4, aside{
-    width: 25%;
-    margin-left: 0;
-  }
+  // .span4, aside{
+  //   width: 25%;
+  //   margin-left: 0;
+  // }
 
   #container, .inner{
     width: 90%;
@@ -315,7 +333,8 @@ aside{
   }
 }
 
-@media screen and (max-width: 480px){
+// @media screen and (max-width: 480px){
+@media screen and (max-width: 565px){
   // nav ul li{
   //   width: 100%;
   //   margin: 0 0 5px 0;
@@ -384,6 +403,43 @@ aside{
   &:after {
     clear: both;
   }
+}
+
+//PHOTO GLALLARY
+
+.gallery{
+  display: block;
+  margin-top: 20px;
+}
+
+.gallery li{
+  float: left;
+  margin: 2px;
+  @include spanWidth(3);
+}
+
+img{
+  width: 100%;
+}
+
+//video
+#containingBlock {
+  width:90%;
+  margin:10px auto;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe,
+.videoWrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 

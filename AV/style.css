@@ -163,15 +163,19 @@ nav a {
   padding: 10px 10px;
   text-decoration: none;
   padding: 8px;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
   text-decoration: none;
   border-bottom: 1px solid #EFF294;
   margin: 0 -2px; }
 
 nav a:hover {
+  color: #6ca0ac;
+  text-shadow: 2px 3px 2px #000000; }
+
+.active {
   color: #6ca0ac;
   text-shadow: 2px 3px 2px #000000; }
 
@@ -239,6 +243,13 @@ body > #wrap {
 .clearfix {
   display: block; }
 
+#fb-root {
+  display: none; }
+
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important; }
+
 aside {
   border-left: 3px solid #EFF294;
   padding-left: 10px; }
@@ -260,17 +271,10 @@ aside {
     margin-top: 10px;
     background-position: 0; }
 
-  .span8, article {
-    width: 75%; }
-
-  .span4, aside {
-    width: 25%;
-    margin-left: 0; }
-
   #container, .inner {
     width: 90%;
     padding: 0 5% 0 5%; } }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 565px) {
   nav {
     margin-top: 130px; }
 
@@ -307,3 +311,33 @@ aside {
     display: table; }
   .cf:after {
     clear: both; }
+
+.gallery {
+  display: block;
+  margin-top: 20px; }
+
+.gallery li {
+  float: left;
+  margin: 2px;
+  width: 23.875%; }
+
+img {
+  width: 100%; }
+
+#containingBlock {
+  width: 90%;
+  margin: 10px auto; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe,
+.videoWrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
