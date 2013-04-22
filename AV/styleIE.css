@@ -186,14 +186,15 @@ nav a:hover {
 
   top: -25px;
   border-bottom: none;
-  margin-left: 25px;
-  margin-right: 25px; }
+ }
 
   .logocontain {
       width: 200px;
     height: 100px;
       display: inline-block;
   position: relative;
+    margin-left: 25px;
+  margin-right: 25px;
   }
 
 .logo:hover {
