@@ -197,7 +197,9 @@ nav a:hover {
   margin-right: 25px;*/
   }
 
- img {
+ .logo img {
+  height: 100px;
+    width: 200px;
     border: 0; /* 1 */
   -ms-interpolation-mode: bicubic; /* 2 */
 
