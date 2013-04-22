@@ -198,9 +198,16 @@ nav a:hover {
   }
 
   .logocontain img {
-    max-width:100%;
-    height:auto;
-    width: auto;
+    border: 0; /* 1 */
+  -ms-interpolation-mode: bicubic; /* 2 */
+
+  /* vertical-align: bottom; */ /* Suppress the space beneath the baseline */
+
+  /* Responsive images */
+  /* @todo Add responsive embedded video. */
+  max-width: 100%;
+  height: auto;
+  width: auto;
   }
 
 .logo:hover {
