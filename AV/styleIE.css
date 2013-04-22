@@ -180,25 +180,22 @@ nav a:hover {
   text-shadow: 2px 3px 2px #000000; }
 
 .logo {
-  max-width:100%;
-}
-
-.logoimg {
-    max-width:100%;
-}
-
-  .logocontain {
-    height: 100px;
-    width: 200px;
-      font-size: 1.7em;
+  font-size: 1.7em;
   line-height: .9em;
   display: inline-block;
   position: relative;
   top: -25px;
   border-bottom: none;
-  text-indent: -9999px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width:100%;
   margin-left: 25px;
-  margin-right: 25px;
+  margin-right: 25px; }
+
+  .logocontain {
+    height: 100px;
+    width: 200px;
   }
 
 .logo:hover {
