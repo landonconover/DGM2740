@@ -1,3 +1,4 @@
+<?php $page='comment'; ?>
 <!doctype html>  
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
@@ -15,7 +16,6 @@
 
   <link rel="shortcut icon" href="/favicon.ico">
  	<link rel="stylesheet" href="style.css">
-  <script src="js/respond.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
 
@@ -35,16 +35,25 @@
 
   	<article class="span8">
 				<section>
-          <h1>Welcome</h1>
-          <p>Audio Visions Mobile Disc Jockey service has been in the business of providing mobile dance systems in Utah for over 30 years. We are a DJ like no other. We provide professional service along with professional sound & lighting at all of our dances. Our services can also provide you with the absolutely largest mobile dance system in the state of Utah. We also offer a completely unique custom light show with all of our systems at no extra charge.</p>
-        </section>
-        <section>
-          <h2>Our Service</h2>
-          <p>One of the best features our company has to offer is our service and creativity. We can help you create any atmosphere from weddings to parties. We are here to help your event be a success! This website showcases our experience, systems and equipment, music library and information to help you become more familiar with us and to help you choose a DJ that is right for you.</p>
-        </section>
-        <section>
-          <h2>Satisfaction</h2>
-          <p>We guarantee our service to your satisfaction. All of our DJs have years of experience as well as an extensive technical background to make your event a success. If you are looking for honest, quality service for your next event.</p>
+          <h1>Leave us a comment</h1>
+
+          <p>This page is for you, our customers, to leave comments about the services we provide.
+This is a benefit to you by being able to read comments from others. It will also help 
+benefit us by taking your comments and using them to help provide service for our 
+customers. You can also fax us your comments at 1-801-489-7021 and we will post 
+them on this page.</p>
+
+          <form action="#" class='contactForm'>
+
+            <label for="name">Name:</label>
+            <input type="text" name='name' id='name'>
+
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit">
+          </form>
+
         </section>
 			</article>
 

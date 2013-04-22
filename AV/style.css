@@ -255,7 +255,8 @@ aside {
   padding-left: 10px; }
 
 .book {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  margin-top: 10px; }
 
 /* MEDIA QUERIES */
 /* Responsify Defaults */
@@ -341,3 +342,10 @@ img {
   left: 0;
   width: 100%;
   height: 100%; }
+
+label {
+  display: block;
+  margin-top: 10px; }
+
+.contactForm {
+  margin-top: 10px; }

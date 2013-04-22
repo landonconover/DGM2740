@@ -297,6 +297,7 @@ aside{
 
 .book{
   font-size: 1.3em;
+  margin-top: 10px;
 }
 /* MEDIA QUERIES */
 
@@ -440,6 +441,16 @@ img{
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+//FORM STUFF
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.contactForm{
+  margin-top: 10px;
 }
 
 

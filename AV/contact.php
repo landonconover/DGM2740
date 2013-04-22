@@ -35,16 +35,14 @@
 
   	<article class="span8">
 				<section>
-          <h1>Welcome</h1>
-          <p>Audio Visions Mobile Disc Jockey service has been in the business of providing mobile dance systems in Utah for over 30 years. We are a DJ like no other. We provide professional service along with professional sound & lighting at all of our dances. Our services can also provide you with the absolutely largest mobile dance system in the state of Utah. We also offer a completely unique custom light show with all of our systems at no extra charge.</p>
-        </section>
-        <section>
-          <h2>Our Service</h2>
-          <p>One of the best features our company has to offer is our service and creativity. We can help you create any atmosphere from weddings to parties. We are here to help your event be a success! This website showcases our experience, systems and equipment, music library and information to help you become more familiar with us and to help you choose a DJ that is right for you.</p>
-        </section>
-        <section>
-          <h2>Satisfaction</h2>
-          <p>We guarantee our service to your satisfaction. All of our DJs have years of experience as well as an extensive technical background to make your event a success. If you are looking for honest, quality service for your next event.</p>
+          <h1>Contact Us</h1>
+
+          <p>It is very easy to get in contact with us here at Audio Visions Mobile DJ. Unlike many DJ's we have an office where you can reach a live person Mon - Fri, 8 a.m. to 5 p.m. Or, if it's after 5 p.m., call our office number and let it ring a bit longer and the phone will transfer to Marci's cell phone which she will anwser unless she is already at a dance and cannot hear the phone ring. You may leave a voice mail at this time and Marci will get back to you as soon as possible. Feel free to call anytime and we would be happy to talk to you and answer any questions that you may need.</p>
+
+          <p class='book'>
+              <span aria-hidden="true" class="icon-phone">&nbsp;</span>800-789-8235 <br>
+              <span aria-hidden="true" class="icon-envelop">&nbsp;</span>info@avpro.com</p>
+
         </section>
 			</article>
 

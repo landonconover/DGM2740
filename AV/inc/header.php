@@ -5,7 +5,7 @@
 				<a class="alt <?php if($page == 'about'){echo 'active';} ?>" href="about.php">About</a>
         <a class="alt <?php if($page == 'contact'){echo 'active';} ?>" href="contact.php">Contact</a>
         <a class="alt logo" href="index.php">Audio Visions Mobile DJ</a>
-        <a class="alt <?php if($page == 'compare'){echo 'active';} ?>" href="compare.php">Compare</a>
+        <a class="alt <?php if($page == 'comment'){echo 'active';} ?>" href="comment.php">Comment</a>
         <a class="alt <?php if($page == 'photos'){echo 'active';} ?>" href="photos.php">Photos</a>
         <a class="alt <?php if($page == 'music'){echo 'active';} ?>" href="music.php">Music</a>
 		</nav>
