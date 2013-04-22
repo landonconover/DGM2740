@@ -19,11 +19,8 @@
   <link rel="stylesheet" type="text/css" href="styleIE.css" />
   <![endif]-->
 
-<!--[if (gt IE 9)|!(IE)]><!--> <link rel="stylesheet" type="text/css" href="style.css" /> <!--<![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!--> <link rel="stylesheet" type="text/css" href="style.css" /> <!--<![endif]-->
 
-  <!--[if gte IE 8]>
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <![endif]-->
 
 
 
