@@ -191,7 +191,7 @@ nav a:hover {
 
   background-repeat: no-repeat;
   background-position: center;
-  max-width:100;
+  max-width:100%;
   text-indent: -9999px;
   margin-left: 25px;
   margin-right: 25px; }
@@ -323,7 +323,9 @@ aside {
   width: 23.875%; }
 
 img {
-  width: 100%; }
+  width: 100%; 
+  -ms-interpolation-mode: bicubic;
+}
 
 #containingBlock {
   width: 90%;
