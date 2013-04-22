@@ -15,7 +15,11 @@
 
   <link rel="shortcut icon" href="/favicon.ico">
 
+<!--[if (!(IE)]<!--> <link rel="stylesheet" type="text/css" href="style.css" /> <!--<![endif]-->
 
+  <!--[if gte IE 8]>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+<![endif]-->
 
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="styleIE.css" />
