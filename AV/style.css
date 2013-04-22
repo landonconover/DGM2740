@@ -194,11 +194,7 @@ nav a:hover {
   background-size: 100%;
   text-indent: -9999px;
   margin-left: 25px;
-  margin-right: 25px;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Audio-Visions-Web.png', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='Audio-Visions-Web.png',
-sizingMethod='scale')"; }
+  margin-right: 25px; }
 
 .logo:hover {
   color: rgba(255, 255, 255, 0.8);
