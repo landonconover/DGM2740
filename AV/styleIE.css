@@ -198,8 +198,6 @@ nav a:hover {
   }
 
  .logo img {
-    max-height: 100px;
-    max-width: 200px;
     border: 0; /* 1 */
   -ms-interpolation-mode: bicubic; /* 2 */
 
@@ -207,8 +205,10 @@ nav a:hover {
 
   /* Responsive images */
   /* @todo Add responsive embedded video. */
+  max-width: 100%;
   height: auto;
-  width: auto;
+    width: auto\9; /* ie8 */
+
   }
 
 .logo:hover {
