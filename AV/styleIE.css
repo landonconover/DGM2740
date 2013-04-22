@@ -223,7 +223,7 @@ html, body, #wrap {
 body > #wrap {
   height: auto;
   min-height: 100%; 
-background: red;}
+}
 
 #main {
   padding-bottom: 200px; }
