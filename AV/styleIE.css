@@ -181,8 +181,6 @@ nav a:hover {
 
 .logo {
   font-size: 1.7em;
-  width: 200px;
-  height: 100px;
   line-height: .9em;
   display: inline-block;
   position: relative;
@@ -195,6 +193,11 @@ nav a:hover {
   text-indent: -9999px;
   margin-left: 25px;
   margin-right: 25px; }
+
+  .logocontain {
+    height: 100px;
+    width: 200px;
+  }
 
 .logo:hover {
   color: rgba(255, 255, 255, 0.8);
