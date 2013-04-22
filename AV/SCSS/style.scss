@@ -232,6 +232,14 @@ text-shadow: 2px 3px 2px #000000;
   text-indent: -9999px;
   margin-left: 25px;
   margin-right: 25px;
+
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='Audio-Visions-Web.png',
+sizingMethod='scale');
+
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='Audio-Visions-Web.png',
+sizingMethod='scale')";
 }
 
 .logo:hover{
