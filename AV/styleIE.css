@@ -197,6 +197,12 @@ nav a:hover {
   margin-right: 25px;
   }
 
+  .logocontain img {
+    max-width:200px;
+    height:auto;
+    width: auto;
+  }
+
 .logo:hover {
   color: rgba(255, 255, 255, 0.8);
   text-shadow: none; }
