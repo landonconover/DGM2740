@@ -184,6 +184,10 @@ nav a:hover {
   text-indent: -9999px;
 }
 
+.logoimg {
+    max-width:100%;
+}
+
   .logocontain {
     height: 100px;
     width: 200px;
