@@ -7,6 +7,7 @@
         <!--[if lt IE 7 ]> <a class="alt logo" href="index.php"><img src="Audio-Visions-Web.png" alt="logo"></a> <![endif]-->
         <!--[if IE 7 ]>    <a class="alt logo" href="index.php"><img src="Audio-Visions-Web.png" alt="logo"></a> <![endif]-->
         <!--[if IE 8 ]>    <a class="alt logo" href="index.php"><img src="Audio-Visions-Web.png" alt="logo"></a> <![endif]-->
+        <!--[if IE 9 ]>     <a class="alt logo" href="index.php">Audio Visions Mobile DJ</a> <![endif]-->
         <!--[if (gt IE 9)|!(IE)]><!--> <a class="alt logo" href="index.php">Audio Visions Mobile DJ</a> <!--<![endif]-->
         <a class="alt <?php if($page == 'comment'){echo 'active';} ?>" href="comment.php">Comment</a>
         <a class="alt <?php if($page == 'photos'){echo 'active';} ?>" href="photos.php">Photos</a>
