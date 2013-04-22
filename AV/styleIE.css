@@ -179,7 +179,7 @@ nav a:hover {
   color: #6ca0ac;
   text-shadow: 2px 3px 2px #000000; }
 
-.logo {
+.logo a{
   font-size: 1.7em;
   width: 200px;
   height: 100px;
@@ -191,10 +191,11 @@ nav a:hover {
 
   background-repeat: no-repeat;
   background-position: center;
-  max-width:100;
+  max-width:100%;
   text-indent: -9999px;
   margin-left: 25px;
-  margin-right: 25px; }
+  margin-right: 25px; 
+}
 
 .logo:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -270,7 +271,8 @@ aside {
     left: 50%;
     margin-left: -100px;
     margin-top: 10px;
-    background-position: 0; }
+    background-position: 0; 
+  }
 
   #container, .inner {
     width: 90%;
