@@ -4,7 +4,7 @@
         <a class="alt <?php if($page == 'book'){echo 'active';} ?>" href="book.php">Book Now</a>
 				<a class="alt <?php if($page == 'about'){echo 'active';} ?>" href="about.php">About</a>
         <a class="alt <?php if($page == 'contact'){echo 'active';} ?>" href="contact.php">Contact</a>
-        
+         
         <!--[if IE 8 ]>    <a class="alt logo" href="index.php"><img class='logoimg' src="Audio-Visions-WebIE.png" alt="logo"></a> <![endif]-->
         
         <a class="alt <?php if($page == 'comment'){echo 'active';} ?>" href="comment.php">Comment</a>
